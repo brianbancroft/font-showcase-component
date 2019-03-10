@@ -8,7 +8,7 @@ Use this when you want to ensure that all of your web-fonts are being loaded.
 
 ## Usage
 
-There is only one prob used in this component.
+Add this component anywhere you wish to test all the font weights in your font family which you've loaded. Import, and show the component. 
 
 ```js
 import FontShowcase from "font-showcase-component";
