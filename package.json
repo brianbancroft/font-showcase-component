@@ -1,0 +1,16 @@
+{
+  "name": "font-showcase-component",
+  "version": "0.1.0",
+  "description": "A React Component that displays all the font weights. Use for troubleshooting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Bancroft <hello@brianbancroft.ca>",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "react": "^16.8.4"
+  }
+}
