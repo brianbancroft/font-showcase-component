@@ -1,6 +1,6 @@
 {
   "name": "font-showcase-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Component that displays all the font weights. Use for troubleshooting",
   "keywords": [
     "react",
