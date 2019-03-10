@@ -1,20 +1,52 @@
 {
   "name": "font-showcase-component",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A React Component that displays all the font weights. Use for troubleshooting",
-  "main": "index.js",
+  "keywords": [
+    "react",
+    "fonts",
+    "debugging"
+  ],
+  "bugs": {
+    "url": "https://github.com/brianbancroft/font-showcase-component/issues",
+    "email": "hello@brianbancroft.ca"
+  },
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run transpile"
   },
   "author": "Brian Bancroft <hello@brianbancroft.ca>",
-  "license": "MIT",
+  "license": "mit",
   "dependencies": {
     "@emotion/core": "^10.0.7",
-    "@emotion/styled": "^10.0.7",
-    "react": "^16.8.4"
+    "@emotion/styled": "^10.0.7"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.8.4"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/brianbancroft/font-showcase-component"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react-dom": "^16.8.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "engines": {
+    "node": ">=8.15.0"
   }
 }
