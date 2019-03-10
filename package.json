@@ -7,10 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian Bancroft <hello@brianbancroft.ca>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
     "react": "^16.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianbancroft/font-showcase-component"
   }
 }
